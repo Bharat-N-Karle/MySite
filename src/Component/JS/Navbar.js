@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css'; // Importing the CSS file for the navbar styles
+import '../CSS/Navbar.css'; // Importing the CSS file for the navbar styles
 
 const Navbar = () => {
   const [search, setSearch] = useState('');

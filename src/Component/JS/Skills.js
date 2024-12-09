@@ -1,9 +1,9 @@
 import React from 'react';
-import './Skills.css'; // Importing the CSS file
+import '../CSS/Skills.css'; // Importing the CSS file
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', icon: 'fa-html5' },
+    { name: 'HTML', icon: '' },
     { name: 'CSS', icon: 'fa-css3-alt' },
     { name: 'JavaScript', icon: 'fa-js' },
     { name: 'React', icon: 'fa-react' },

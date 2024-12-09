@@ -4,10 +4,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f9fa;
-    border-bottom: 2px solid skyblue;
+    background-color: #4a647e;
+    border: 2px solid rgb(246, 248, 249);
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   
   /* Center the navbar links and the search bar */
@@ -19,11 +19,13 @@
   }
   
   .navbar-links ul {
+    color: white;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    justify-content: center;
+    font-size: x-large;
+    justify-content: center;  
   }
   
   .navbar-links li {
@@ -32,13 +34,13 @@
   
   .navbar-links a {
     text-decoration: none;
-    color: #333;
+    color: #fdfdfd;
     font-weight: bold;
     transition: color 0.3s;
   }
   
   .navbar-links a:hover {
-    color: skyblue;
+    color: rgb(251, 11, 11);
   }
   
   .navbar-search {

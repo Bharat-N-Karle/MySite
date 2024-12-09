@@ -32,12 +32,15 @@
     border: 2px solid blue; /* Blue border */
     padding: 2px;
     border-radius: 8px;
-    width: 400px; /* Same width for all cards */
-    height: 400px; /* Same height for all cards */
+    width: 300px; /* Same width for all cards */
+    height: 300px; /* Same height for all cards */
     background-color: rgba(255, 255, 255, 0.9); /* Slight white background */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     transition: transform 0.3s ease-in-out; /* Smooth hover effect */
     text-align: center;
+    background-image: url(../Image/pexels-mart-production-7679865.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .project-card:hover {

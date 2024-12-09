@@ -1,10 +1,10 @@
 import './App.css';
-import Introduction from './Component/Introduction';
-import Navbar from './Component/Navbar';
-import Project from './Component/Project';
-import Skills from './Component/Skills';
-import ContactUs from './Component/Contact';
-import Footer from './Component/Footer';
+import Introduction from './Component/JS/Introduction';
+import Navbar from './Component/JS/Navbar';
+import Project from './Component/JS/Project';
+import Skills from './Component/JS/Skills';
+import ContactUs from './Component/JS/Contact';
+import Footer from './Component/JS/Footer';
 function App() {
   return (
     <div className="App">
