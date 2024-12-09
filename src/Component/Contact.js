@@ -26,6 +26,7 @@ const ContactUs = () => {
           <input
             type="text"
             value={name}
+            placeholder="Enter Your Name"
             onChange={(e) => setName(e.target.value)}
             required
           />
@@ -35,6 +36,7 @@ const ContactUs = () => {
           <input
             type="email"
             value={email}
+            placeholder="Enter Yoour Email"
             onChange={(e) => setEmail(e.target.value)}
             required
           />
@@ -44,6 +46,7 @@ const ContactUs = () => {
           <input
             type="text"
             value={phone}
+            placeholder="Enter Your Mobile Number"
             onChange={(e) => setPhone(e.target.value)}
             required
           />
