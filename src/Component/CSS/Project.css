@@ -1,4 +1,8 @@
 /* Style the container for the Projects section */
+html {
+  scroll-behavior: smooth;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@
   .project-card h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
-    color: #007bff; /* Blue color for titles */
+    color: #0a0a0a; /* Blue color for titles */
     margin-bottom: 10px;
   }
   

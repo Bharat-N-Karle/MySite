@@ -1,10 +1,12 @@
 import React from 'react';
 import '../CSS/Introduction.css'; // Import the CSS file
+import myimage from '../Image/Bharat.jpg'
 
 const Introduction = () => {
   return (
     <section className="introduction">
       <div className="intro-content">
+        <img id='mylogo' src={myimage} alt=''/>
         <h1>Hello, I'm Bharat Karle</h1>
         <p>
           I'm a passionate and self-driven software developer with a strong foundation in web development. 

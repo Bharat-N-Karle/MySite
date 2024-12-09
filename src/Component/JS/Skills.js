@@ -18,7 +18,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skills-container">
+    <div id='section1' className="skills-container">
       <h2>Web Developer Skills</h2>
       <div className="skills-grid">
         {skills.map((skill, index) => (

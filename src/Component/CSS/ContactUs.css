@@ -1,4 +1,7 @@
 /* Style for the container of the Contact Us form */
+html {
+  scroll-behavior: smooth;
+}
 .contact-us-container {
     display: flex;
     flex-direction: column;

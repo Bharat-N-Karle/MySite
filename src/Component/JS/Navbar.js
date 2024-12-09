@@ -14,9 +14,9 @@ const Navbar = () => {
         <div className="navbar-links">
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#section1">Skills</a></li>
+            <li><a href="#section2">Projects</a></li>
+            <li><a href="#section3">Contact Us</a></li>
           </ul>
         </div>
         <div className="navbar-search">
