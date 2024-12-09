@@ -10,7 +10,9 @@ html {
   height: 100vh;
   padding: 20px;
   margin-top: 30px;
-  background-image: url(../Image/pexels-kampus-7289717.jpg);
+  background-image: url(../Image/flat-lay-desktop-with-agenda-magnifying-glass.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .skills-container h2 {
